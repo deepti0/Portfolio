@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/4622994/pexels-photo-4622994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:right;
+    position: relative;
+}
+.Welcome{
+    z-index: -1;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    height: 20vh;
+    background-color: blanchedalmond;
+    color: rgb(253, 4, 4);
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    opacity: 0.6;
+    border: 2px solid purple;
+}
+.Navbar{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 80vh;
+    background-color: blanchedalmond;
+    border-radius: 2vh;
+    border: 2px solid purple;
+    /* position: fixed; */
+}
+
+.Nav1{
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgb(243, 161, 214);
+    justify-content: right;
+    align-items:center; 
+    flex-wrap: wrap;
+    height: 70px;
+    width:100%;
+    border-radius:2vh;
+    color: darkred;
+    font-size:xx-large; 
+    opacity: 0.6;
+    position:fixed
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Navbar button{
+    height: 50px;
+    width: 120px;
+    background: rgb(197, 86, 197);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.Nav1 button:hover{
+    background-color: rgb(241, 175, 236);
+}
+
+.Nav2{
+    padding: 90px;
+    margin: 10px;
+    display:flex;
+    color:rgb(228, 8, 74);
+    text-align: left;
+    height: 50px;
+
+}
+.Name{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;   
+}
+/* .photo{
+    height: 10px;
+    width: 10px;
+} */
+.Background1{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 50vh;
+    background-color: blanchedalmond;
+    border-radius: 2vh;
+    border: 2px solid purple;
+}
+.About{
+    padding: 30px;
+    margin: 20px;
+    display:flex;
+    color:rgb(228, 8, 74);
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+.About1{
+    margin: 1px;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+}
+.Background2{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: auto;
+    background-color: blanchedalmond;
+    border-radius: 2vh;
+    border: 2px solid purple;
+}
+.Skills{
+    padding: 30px;
+    margin: 20px;
+    display:flex;
+    color:rgb(228, 8, 74);
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.g1{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.Background3{
+    background-color: blanchedalmond;
+    height: 100px;
+    margin: 10px;
+    border-radius: 2vh;
+    border: 2px solid purple;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Contacts{
+    font-size: 45px;
+    color:rgb(228, 8, 74);
+    text-decoration: underline;
+}
